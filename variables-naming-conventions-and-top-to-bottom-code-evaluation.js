@@ -1,4 +1,10 @@
-/*
+let customerName = "Alice"; 
+let numberOfItems = 5; 
+let pricePerItem = 4; 
+let totalCost = numberOfItems * pricePerItem; 
+let storeName = "KMart"; 
+let purchaseSummary = customerName + " bought " + numberOfItems + " items from " + storeName + " for $" + totalCost + ".";
+console.log(purchaseSummary);
 
 Objective:
 In this activity, you will reinforce the skill of creating and using variables
@@ -19,8 +25,11 @@ You will:
 
 Things to reflect on:
   - Why is it important to use meaningful variable names?
+    Meaningful variable names are essential because they improve code readability, reduce confusion, and serve as built-in documentation. 
   - What are the common pitfalls to avoid when naming variables?
+    When naming variables, it is important to avoid common pitfalls such as using vague names, inconsistent styles, or failing to follow standard conventions like camelCase.
   - How do clear variable names benefit team collaboration?
+    Clear and consistent naming is particularly beneficial for team collaboration, as it allows multiple developers to understand, maintain, and work on the same codebase more effectively.
   
 */
 
